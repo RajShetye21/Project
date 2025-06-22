@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box-1  */
+.logo {
+    background-image: url("logo.webp");
+    background-size: cover;
+    height: 57px;
+    width: 113px;
+}
+
+.border {
+    border: 2px solid transparent;
+
+}
+
+.border:hover {
+    border: 1px solid white;
+    padding: 8px 9px;
+}
+
+/* Box-2  */
+.address {
+    color: white;
+}
+
+.map {
+    display: flex;
+}
+
+.map p {
+    margin-left: 5px;
+}
+
+.kk {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 16px;
+}
+
+
+/* Box-3  */
+.placeholder {
+    /* width: 800px; */
+    display: flex;
+}
+
+.all {
+    height: 38px;
+    width: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rk {
+    width: 850px;
+}
+
+.placeholder:hover {
+    border: 3px solid orange
+}
+
+.search-logo {
+    background-color: orange;
+    color: white;
+    width: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* Box-4  */
+.hello {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.acc {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Box-5  */
+.return {
+    color: white;
+    font-size: 0.85rem;
+}
+
+.order {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cart {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.size {
+    font-size: 30px;
+}
+
+
+/* Panel section  */
+.panel {
+    background-color: #283a3a;
+    color: white;
+    height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+.panel p {
+    margin-left: 12px;
+    font-size: 0.95rem;
+}
+
+.all-sec {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+/* hero section  */
+.hero {
+    background-image: url("cr.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+}
+
+.line {
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 95%;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line a {
+    color: #007185;
+    font-size: 17px;
+}
+
+/* section  */
+.sec-content {
+    background-color: #eadede;
+}
+
+
+.all-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 10px; */
+}
+
+#see {
+    font-size: 0.85rem;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #007185;
+}
+
+.img1 {
+    background-image: url("pc.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img2 {
+    background-image: url("books.jpg");
+    /* background-size: cover; */
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img3 {
+    background-image: url("watches.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img4 {
+    background-image: url("pro.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img5 {
+    background-image: url("accessories.jpg");
+    /* background-size: cover; */
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img6 {
+    background-image: url("safty.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img7 {
+    background-image: url("shoes.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.img8 {
+    background-image: url("toy.jpg");
+    background-size: cover;
+    height: 280px;
+    margin-right: 13px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+
+/* footer  */
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #223456;
+    height: 49px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #232f3e;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+ul p {
+    font-weight: bold;
+    font-size: 16.8px;
+}
+
+.foot-panel3 {
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logon {
+    background-image: url("logo.webp");
+    background-size: cover;
+    height: 56px;
+    width: 113px;
+
+}
+
+.foot-panel4 {
+    background-color: #11151a;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page a {
+    margin: 5px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #dddddd;
+    font-size: 15px;
+}
